@@ -4,7 +4,7 @@ A small CLI tool that reports which Playwright tests are impacted by a given git
 
 This was built as a fast MVP to answer:
 
-> Given a commit SHA, which tests were added / removed / modified — so we can run only impacted tests instead of the full suite.
+> Given a commit SHA, which tests were added/removed/modified - so we can run only impacted tests instead of the full suite.
 
 ---
 
@@ -89,14 +89,25 @@ With more time, I would:
 
 ## AI Usage Disclosure
 
-I heavily used ChatGPT during development to:
+I used ChatGPT as a development assistant to speed up iteration — mainly for:
 
-* Rapidly prototype the initial CLI
-* Debug Windows-specific issues (git + shell execution)
-* Iterate on regex logic
-* Refine README and documentation
+- Rapid prototyping of the initial CLI structure
+- Debugging Windows-specific shell issues
+- Refining regex logic
+- Improving documentation clarity
 
-All architectural decisions, debugging steps, and tradeoffs were made consciously by me and are explained in the Loom video.
+However, the overall approach, architecture, tradeoffs, and implementation decisions were driven by me. I treated AI like a pair-programming partner - validating outputs, adapting logic, and iterating manually based on observed behavior of the repo.
+
+In particular, I personally handled:
+
+- Understanding the Playwright repo structure
+- Designing the impact classification strategy
+- Deciding on conservative helper-change behavior
+- Debugging git + Node integration on Windows
+- Iteratively refining the output format
+
+All reasoning and limitations are discussed transparently in the Loom video.
+
 
 ---
 
