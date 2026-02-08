@@ -96,7 +96,7 @@ I used ChatGPT as a development assistant to speed up iteration — mainly for:
 - Refining regex logic
 - Improving documentation clarity
 
-However, the overall approach, architecture, tradeoffs, and implementation decisions were driven by me. I treated AI like a pair-programming partner - validating outputs, adapting logic, and iterating manually based on observed behavior of the repo.
+However, the overall approach, architecture, tradeoffs, and implementation decisions were driven by me. I treated AI like a pair-programming partner, validating outputs, adapting logic, and iterating manually based on observed behavior of the repo.
 
 In particular, I personally handled:
 
@@ -113,7 +113,7 @@ All reasoning and limitations are discussed transparently in the Loom video.
 
 ## Why This Approach
 
-The intent was to ship a working MVP quickly, demonstrate engineering judgment, and explicitly call out limitations — similar to how real-world infra tooling evolves.
+The intent was to ship a working MVP quickly, demonstrate engineering judgment, and explicitly call out limitations, similar to how real-world infra tooling evolves.
 
 This mirrors how I would approach this problem in production: start conservative, ship early, then incrementally improve accuracy.
 
